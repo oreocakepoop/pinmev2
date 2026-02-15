@@ -505,7 +505,7 @@ const UserProfile: React.FC = () => {
                         ))}
                      </div>
                    ) : (
-                     <MasonryGrid pins={displayedPins} onPinClick={setSelectedPin} />
+                     <MasonryGrid pins={displayedPins} onPinClick={setSelectedPin} viewMode="masonry" />
                    )}
                 </motion.div>
              )}
